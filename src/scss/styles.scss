@@ -15,7 +15,10 @@
 // $body-bg: black;
 // $body-color: white;
 // $link-hover-color: grey;
-// $font-family-sans-serif: "Helvetica Neue";
+// $font-family-sans-serif: "Helvetica Neu";
+
+$primary:#ededed;
+$body-bg: #ededed;
 
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -24,3 +27,29 @@
 
 // Custom styles:
 
+body {
+  background-color: #ffffff;
+  background-image: url("../pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+#header {
+  background-image: url("/img/pirate-ship.jpg");
+  background-size: 100%;
+  background-position-y: -5rem;
+  text-align: center;
+  padding: 10rem;
+  font-family:fantasy;
+  
+
+}
+
+#carouselExampleCaptions {
+  
+}
+
+footer {
+  background-color: blue;
+  padding: 0.5rem;
+}
