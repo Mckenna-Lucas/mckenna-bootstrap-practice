@@ -35,8 +35,8 @@ body {
 }
 
 #header {
-  background-image: url("/img/pirate-ship.jpg");
-  background-size: 100%;
+  background-image: url("../img/pirate-ship.jpg");
+  background-size: cover;
   background-position-y: -5rem;
   text-align: center;
   padding: 10rem;
@@ -50,6 +50,10 @@ body {
 }
 
 footer {
-  background-color: blue;
+  background-color:aquamarine;
   padding: 0.5rem;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
 }
